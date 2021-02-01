@@ -1,19 +1,6 @@
 <template>
   <div id="app">
-    <nav class="indigo">
-      <div class="nav-wrapper container">
-        <a href="#" class="brand-logo center">
-          Cloud<i class="material-icons">cloud</i>
-        </a>
-        <a href="#modal-login" class="right">
-          <i class="material-icons">login</i>
-        </a>
-        <ul id="nav-mobile" class="left hide-on-med-and-down">
-          <li><router-link to="/">Home</router-link></li>
-          <li><router-link to="/about">About</router-link></li>
-        </ul>
-      </div>
-    </nav>
+    <Navbar/>
     <div class="container" style="height:30px;">
     </div>
     <router-view/>
@@ -21,10 +8,13 @@
 </template>
 
 <script>
+//import Navbar from '@/Navbar-menu.vue'
+import Navbar from '@/Navbar-input.vue'
 import HelloWorld from '@/components/HelloWorld.vue'
 
 export default {
   components: {
+    Navbar,
   },
   mounted(){
 
