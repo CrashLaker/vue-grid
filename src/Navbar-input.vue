@@ -28,7 +28,9 @@
 export default {
   name: "Navbar-input",
   data(){
+    return {
 
+    }
   },
   methods: {
     changePath(){
