@@ -6,6 +6,6 @@ module.exports = {
         watchOptions: {
             poll: true
         },
-        public: 'http://codeserver:8082'
+        public: 'http://codeserver:8122'
     },
 }

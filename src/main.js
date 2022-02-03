@@ -7,6 +7,7 @@ import VueAxios from 'vue-axios'
  
 Vue.use(VueAxios, axios)
 
+import a from './index'
 
 Vue.config.productionTip = false
 
